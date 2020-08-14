@@ -39,6 +39,7 @@ jobs:
         run: composer t3g:test:php:lint
 
       - name: PHPStan
+        if: matrix.typo3 == '^10.4'
         run: composer t3g:phpstan
 
       - name: Unit Tests without coverage
