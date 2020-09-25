@@ -44,8 +44,6 @@ jobs:
 
       - name: Unit Tests without coverage
         if: matrix.typo3 == '^9.5'
-
-      - name: Unit Tests
         run: composer t3g:test:php:unit
 
       - name: Unit Tests with coverage
