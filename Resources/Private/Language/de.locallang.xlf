@@ -100,13 +100,14 @@
             </trans-unit>
             <trans-unit id="message.addComment.success.title" xml:space="preserve">
                 <source>Comment added</source>
+                <target>Kommentar hinzugefügt</target>
             </trans-unit>
             <trans-unit id="message.addComment.success.text" xml:space="preserve">
                 <source>Your comment was added successfully.</source>
             </trans-unit>
             <trans-unit id="message.addComment.moderation.title" xml:space="preserve">
                 <source>Comment added</source>
-                <source>Kommentar hinzugefügt</source>
+                <target>Kommentar hinzugefügt</target>
             </trans-unit>
             <trans-unit id="message.addComment.moderation.text" xml:space="preserve">
                 <source>Your comment was added successfully and is now waiting for approval.</source>
@@ -119,6 +120,7 @@
             </trans-unit>
             <trans-unit id="meta.authors.authors" xml:space="preserve">
                 <source>Authors</source>
+                <target>Autoren</target>
             </trans-unit>
             <trans-unit id="meta.categories.category" xml:space="preserve">
                 <source>Category</source>
@@ -140,12 +142,15 @@
             </trans-unit>
             <trans-unit id="meta.comments.comments" xml:space="preserve">
                 <source>Comments</source>
+                <target>Kommentare</target>
             </trans-unit>
             <trans-unit id="meta.comments.has_comment" xml:space="preserve">
                 <source>%s Comment</source>
+                <target>%s Kommentare</target>
             </trans-unit>
             <trans-unit id="meta.comments.has_comments" xml:space="preserve">
                 <source>%s Comments</source>
+                <target>%s Kommentare</target>
             </trans-unit>
             <trans-unit id="meta.comments.start_conversation" xml:space="preserve">
                 <source>Start the Conversation</source>
@@ -228,6 +233,7 @@
             </trans-unit>
             <trans-unit id="backend.headline.comments" xml:space="preserve">
                 <source>Comments</source>
+                <target>Kommentare</target>
             </trans-unit>
             <trans-unit id="backend.lead.blogs" xml:space="preserve">
                 <source>It looks like you have the following blog setups</source>
@@ -267,6 +273,7 @@
             </trans-unit>
             <trans-unit id="backend.table.author" xml:space="preserve">
                 <source>Authors</source>
+                <target>Autoren</target>
             </trans-unit>
             <trans-unit id="backend.table.categories" xml:space="preserve">
                 <source>Categories</source>
@@ -400,6 +407,7 @@
             </trans-unit>
             <trans-unit id="constantEditor.blog_140_comments" xml:space="preserve">
                 <source>Comments</source>
+                <target>Kommentare</target>
             </trans-unit>
             <trans-unit id="constantEditor.blog_150_authors" xml:space="preserve">
                 <source>Authors</source>
@@ -706,7 +714,7 @@
             </trans-unit>
             <trans-unit id="label.required.field.explanation" xml:space="preserve">
                 <source>These fields are required</source>
-                <target>Die mit Stern gekennzeichneten Felder werden benötigt</target>
+                <target>die mit Stern gekennzeichneten Felder werden benötigt</target>
             </trans-unit>
 
             <!-- Actions -->
@@ -776,7 +784,6 @@
             <trans-unit id="pagination.aria.goto.previous" xml:space="preserve">
                 <source>Go to previous page</source>
             </trans-unit>
-
         </body>
     </file>
 </xliff>
