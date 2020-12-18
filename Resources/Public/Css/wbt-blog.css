@@ -1,3 +1,30 @@
 .blogcontainer {
     display: block !important;
 }
+
+ul.postlist {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.postlist h2 {
+    margin-top: 0 !important;
+}
+
+.postlist h2 a{
+    text-decoration: none !important;
+}
+
+.postlist li {
+    margin-bottom: 1.5em;
+}
+
+.postlist-content {
+    margin-bottom: 0.5em;
+}
+
+.blogimage--featured img {
+    max-height: 170px;
+    width: auto !important;
+    margin-left: 0 !important;
+}
