@@ -320,6 +320,7 @@ page.includeCSSLibs {
     blogFrontend {
         forceOnTop = 1
     }
+    wbt-blog = EXT:blog/Resources/Public/Css/wbt-blog.css
 }
 
 
