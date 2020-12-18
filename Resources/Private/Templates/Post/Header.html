@@ -1,8 +1,8 @@
 <f:layout name="Post" />
 <f:section name="Content">
 
-    <header class="postheader">
-        <f:if condition="{post.featuredImage}">
+    <div class="postheader">
+        <f:if condition="false && {post.featuredImage}">
             <div class="postheader__featuredimage">
                 <f:render partial="General/FeaturedImage" arguments="{image: post.featuredImage, settings: settings.post.featuredImage}" />
             </div>
@@ -13,6 +13,6 @@
                 <f:render partial="Meta/PostHeader" arguments="{_all}" />
             </div>
         </f:if>
-    </header>
+    </div>
 
 </f:section>
