@@ -11,7 +11,8 @@
             <f:for each="{post.categories}" as="postCategory">
                 <li>
                     <span class="postmetagroup__listitem">
-                        <span class="postmetagroup__listtext"><blogvh:link.category category="{postCategory}" /></span>
+                        <!--span class="postmetagroup__listtext"><blogvh:link.category category="{postCategory}" /></span-->
+                        <span class="postmetagroup__listtext">{postCategory.title}</span>
                     </span>
                 </li>
             </f:for>
