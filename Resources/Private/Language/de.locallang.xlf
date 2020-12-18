@@ -87,6 +87,7 @@
             </trans-unit>
             <trans-unit id="message.comments" xml:space="preserve">
                 <source>%s Comments</source>
+                <target>%s Kommentare</target>
             </trans-unit>
             <trans-unit id="message.comments_closed" xml:space="preserve">
                 <source>Comments closed</source>
@@ -135,6 +136,7 @@
             </trans-unit>
             <trans-unit id="meta.published.published" xml:space="preserve">
                 <source>Published</source>
+                <target>Veröffentlicht</target>
             </trans-unit>
             <trans-unit id="meta.comments.comments" xml:space="preserve">
                 <source>Comments</source>
@@ -147,12 +149,15 @@
             </trans-unit>
             <trans-unit id="meta.comments.start_conversation" xml:space="preserve">
                 <source>Start the Conversation</source>
+                <target></target>
             </trans-unit>
             <trans-unit id="meta.comments.join_conversation" xml:space="preserve">
                 <source>Join the Conversation</source>
+                <target></target>
             </trans-unit>
             <trans-unit id="meta.comments.view_conversation" xml:space="preserve">
                 <source>View the Conversation</source>
+                <target></target>
             </trans-unit>
             <trans-unit id="meta.title.listPostsByDate" xml:space="preserve">
                 <source>All blog posts in ###MONTH_NAME### ###YEAR###</source>
@@ -398,6 +403,7 @@
             </trans-unit>
             <trans-unit id="constantEditor.blog_150_authors" xml:space="preserve">
                 <source>Authors</source>
+                <target>Autoren</target>
             </trans-unit>
             <trans-unit id="constantEditor.blog_160_notifications" xml:space="preserve">
                 <source>Notifications</source>
