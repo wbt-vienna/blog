@@ -6,7 +6,7 @@
                     <f:render section="PaginatePosts" arguments="{posts: posts, pagination: settings.lists.pagination}" />
                 </f:then>
                 <f:else>
-                    <f:render section="ListPosts" arguments="{posts: posts}" />
+                    <f:render section="ListPosts" arguments="{_all}" />
                 </f:else>
             </f:if>
         </f:then>
