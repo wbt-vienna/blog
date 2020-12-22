@@ -19,6 +19,40 @@
                             </config>
                         </TCEforms>
                     </settings.latestPosts.limit>
+                    <headertype>
+                        <TCEforms>
+                            <label>Header-Type</label>
+                            <config>
+                                <type>input</type>
+                                <size>2</size>
+                                <max>2</max>
+                                <default>h2</default>
+                                <eval>trim</eval>
+                            </config>
+                        </TCEforms>
+                    </headertype>
+                    <footerLinkId>
+                        <TCEforms>
+                            <label>Link after content (id)</label>
+                            <config>
+                                <type>input</type>
+                                <size>5</size>
+                                <max>5</max>
+                                <eval>int</eval>
+                            </config>
+                        </TCEforms>
+                    </footerLinkId>
+                    <footerLinkText>
+                        <TCEforms>
+                            <label>Link after content (text)</label>
+                            <config>
+                                <type>input</type>
+                                <size>30</size>
+                                <max>30</max>
+                                <eval>trim</eval>
+                            </config>
+                        </TCEforms>
+                    </footerLinkText>
                 </el>
             </ROOT>
         </sDEF>

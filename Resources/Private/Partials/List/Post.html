@@ -1,6 +1,7 @@
 <div class="postlist__post row">
+    <f:variable name="headertype">{f:or(content:data.pi_flexform.headertype, alternative:'h2')}</f:variable>
     <div class="col-md-8 postlist-content">
-        <h2 class="postlist__posttitle" itemprop="name"><blogvh:link.post post="{post}" /></h2>
+        <{headertype} class="postlist__posttitle" itemprop="name"><blogvh:link.post post="{post}" /></{headertype}>
         <f:render partial="Meta/ListHeader" arguments="{_all}" />
         <f:if condition="{post.abstract}">
             <f:then>

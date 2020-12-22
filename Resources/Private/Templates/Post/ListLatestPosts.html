@@ -1,4 +1,7 @@
 <f:layout name="Default" />
 <f:section name="Content">
     <f:render partial="List" arguments="{_all}"/>
+    <f:if condition="{data.pi_flexform.footerLinkId} && {data.pi_flexform.footerLinkText}">
+        <f:link.page pageUid="{data.pi_flexform.footerLinkId}">{data.pi_flexform.footerLinkText}</f:link.page>
+    </f:if>
 </f:section>
