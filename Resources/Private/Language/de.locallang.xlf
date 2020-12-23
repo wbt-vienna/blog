@@ -44,9 +44,11 @@
             </trans-unit>
             <trans-unit id="headline.author.simple" xml:space="preserve">
                 <source>Author</source>
+                <target>Autor</target>
             </trans-unit>
             <trans-unit id="headline.authors" xml:space="preserve">
                 <source>Authors</source>
+                <target>Autoren</target>
             </trans-unit>
             <trans-unit id="headline.tag" xml:space="preserve">
                 <source>Posts tagged with %s</source>
@@ -117,6 +119,7 @@
             <!-- Meta -->
             <trans-unit id="meta.authors.author" xml:space="preserve">
                 <source>Author</source>
+                <target>Autor</target>
             </trans-unit>
             <trans-unit id="meta.authors.authors" xml:space="preserve">
                 <source>Authors</source>
@@ -752,6 +755,7 @@
             </trans-unit>
             <trans-unit id="email.label.author" xml:space="preserve">
                 <source>Author</source>
+                <target>Autor</target>
             </trans-unit>
             <trans-unit id="email.label.comment" xml:space="preserve">
                 <source>Comment</source>
