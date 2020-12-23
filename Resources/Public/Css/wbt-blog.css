@@ -11,7 +11,7 @@ ul.postlist {
     margin-top: 0 !important;
 }
 
-.postlist h2 a{
+.postlist h2 a, .postlist h3 a{
     text-decoration: none !important;
 }
 
